@@ -75,3 +75,32 @@ for i in range(1, len(inp)):
     T.insert(inp[i])
 T.printTree(T.root)
 T.checkpos(inp[0])
+
+'''
+example test cases
+Enter Input : 30 10 4 20 1 5
+      20
+ 10
+           5
+      4
+           1
+Not exist
+
+Enter Input : 4 4 10 3 6 13 9
+           13
+      10
+                9
+           6
+ 4
+      3
+Root
+
+Enter Input : 10 7 10 3 6 13 9
+           13
+      10
+           9
+ 7
+           6
+      3
+Inner
+'''
